@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor Task-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            box-sizing: border-box;
+            background-color: #313E51;
+        }
+        #container{
+            display: flex;
+            height: 100%;
+            width: 100%;
+        }
+        
+        #leftSide{
+            /* background-color: lightcoral; */
+            height: 720px;
+            width: 700px; 
+        }
+       
+        .h1{
+            color: white;
+            padding-top: 200px;
+            padding-left: 200px;
+            font-size: 50px;
+            font-weight: 300;
+            font-family: Quicksand, sans-serif;
+        }
+        span{
+            font-weight: 600;
+        }
+        p{
+            font-family: poppins;
+            color: white;
+            font-weight: 300;
+            padding-left: 200px;
+        }
+        #rightSide{
+            /* background-color: lightblue; */
+            height: 720px;
+            width: 800px;
+            box-sizing: border-box;
+        }
+        #top{
+            margin-top: 130px;
+            padding-left: 400px;
+            /* background-color: lightblue; */
+        }
+        #down{
+            margin-top: 70px;
+            /* background-color: lightcoral; */
+            
+        }
+        .box{
+            height: 40px;
+            width: 600px;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 20px;
+            font-family: poppins;
+            background-color: #49576b;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        h2{
+            color: white;
+            font-weight: 400;
+
+        }
+        .boximg{
+            width: 25px;
+            height: 25px;
+            border-radius: 20px;
+            /* padding-left: 20px; */
+        }
+        .navImg{
+            color: white;
+            display: flex;
+        }
+        img{
+            height: 40px;
+            width: 40px;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        
+        <div id="leftSide">
+            <h1 class="h1" >Welcome to the <br><span>Frontend Quiz!</span></h1>
+            <p><em>Pick a Subject to get Started</em></p>
+        </div>
+        <div id="rightSide">
+           <div id="top">
+            <div class="navImg">
+                <img src="https://cdn-icons-png.flaticon.com/128/18764/18764315.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/5549/5549898.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/12657/12657213.png" alt="">
+            </div>
+           </div>
+           
+           <div id="down">
+            <div class="box">
+                <img class="boximg" src="https://img.icons8.com/?size=96&id=20909&format=png" alt="">
+                <h2>Html</h2>
+            </div>
+            <div class="box">
+                <img class="boximg" src="https://img.icons8.com/?size=96&id=21278&format=png" alt="">
+                <h2>Css</h2>
+            </div>
+            <div class="box">
+                <img class="boximg" src="https://img.icons8.com/?size=96&id=108784&format=png" alt="">
+                <h2>Javascript</h2>
+            </div>
+            <div class="box">
+                <img class="boximg" src="https://img.icons8.com/?size=96&id=63223&format=png" alt="">
+                <h2>Accessibility</h2>
+            </div>
+           </div>
+            
+        </div>
+    </div>
+       
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaProfile-@Suraj_Lokhande_18</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    body{
+        /*  */
+        box-sizing: border-box;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    #container{
+        height: 820px;          
+        width: 400px;
+        margin-left: 500px;
+        background-color: black;
+        border-radius: 20px;
+    }
+    #nav{
+        /* justify-content: ; */
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #navLeft{
+        align-items: center;
+        display: flex;
+        gap: 8px;
+        padding-left: 10px;
+        
+    }
+    i{
+        font-weight: 200;
+    }
+    .menu:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+    #navRight{
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+    }
+    #createIconImg{
+        width: 30px;
+        height: 30px;
+        font-weight: 300;
+    }
+    #mainContent{
+        display: flex;
+        align-items: center;
+        /* gap: 20px; */
+        justify-content: space-around;
+    }
+    #profile,#profiles{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+    }
+    #followers{
+        /* background-color: rgb(183, 255, 0); */
+    }
+    #name{
+        /* background-color: red; */
+    }
+    #name,h1{
+        font-size: 17px;
+        font-weight: 400;
+    }
+    #posts{
+        display: flex;
+        margin-top: 0;
+        align-items: center;
+        gap: 20px;
+        /* background-color: red; */
+        margin-top: -15px;
+        height: 70px;
+    }
+    #posts,h2{
+        font-size: 17px;
+        font-weight: 400;
+
+    }
+    #bio, h3{
+        font-size: 17px;
+        padding-left: 7px;
+    }
+    #edit{
+        /* background-color: red; */
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .editProfiles{
+        background-color:  rgb(88, 88, 88);
+        margin: 3px;
+        height: 30px;
+        width: 170px;
+        
+    }
+    .editProfiles,a{
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+        font-size: 17px;
+    }
+    #highlight{
+        /* background-color: red; */
+        height: 90px;
+        margin-top: 10px;
+        display: flex;
+        /* align-items: center; */
+        /* background-color: red; */
+    }
+    .logo{
+        /* height: 80px;
+        width: 30px; */
+        margin: 10px;
+        text-align: center;
+    }
+    .logo,.logos{
+        height: 60px;
+        width: 60px;
+        border: 1px solid white;
+        border-radius: 50%; 
+    }
+   .feeds{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 10px; */
+   }
+   .feedsLogo{
+        height: 30px;
+   }
+   #posts-insta{
+    margin-top: 20px;
+    height: 340px;
+    width: 400px;
+   }
+   .topPost{
+    height: 160px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+   .bottomPost{
+    height: 160px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 12px;
+   }
+   .images{
+    height: 170px;
+    width: 130px;
+    /* background-color: aqua; */
+   }
+   .fa-solid{
+    color: white;
+   }
+   #footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   }
+   .footerIcons{
+    width: 25px;
+    height: 25px;
+   }
+</style>
+<body>
+    <div id="container">
+        <div id="nav">
+           <div id="navLeft">
+            <i class="fa-solid fa-lock"></i>            
+            <h1 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 20px;">suraj_lokhande_18</h1>
+            <i class="fa-solid fa-caret-down"></i>
+           </div>
+           <div id="navRight">
+            <i style="font-size: 20px;" class="fa-solid fa-square-plus"></i>            
+            <i style="font-size: 20px;" class="menu fa-solid fa-bars"></i>
+           </div>
+
+            
+        </div>
+
+        <div id="mainContent">
+            <div id="profile">
+                <img id="profiles" src="./imgs/profile.jpg" alt="">
+            </div>            
+            <div id="followers">
+                <div id="name">
+                    <h1>सुरज लोखंडे...</h1>
+                </div>
+                <div id="posts">
+                    <h2>3k <br><span>posts</span></h2>
+                    <h2>1M <br><span>followers</span></h2>
+                    <h2>1 <br><span>following</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <div id="bio">
+            <h3>||"सर्वस्यापी भवेध्देतू:"|| <br>
+            <span style="font-weight: 500;">Web Developer...</span><br>
+            <span style="font-weight: 500;">Satarkar...</span></h3>
+        </div>
+
+        <div id="edit">
+            <div class="editProfiles" style="display: flex; align-items: center; justify-content: center;">
+                <a href="">Edit profile</a>            
+            </div>
+            <div class="editProfiles" style="display: flex; align-items: center; justify-content: center;">
+                <a href="">Share profile</a>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <i style="height: 23px; width: 35px;text-align: center; border-radius: 10px; padding-top: 10px; background-color: rgb(88, 88, 88);" class="fa-solid fa-user-plus"></i>
+            </div>
+        </div>
+
+        <div id="highlight">
+            <div class="logo"><a href=""><img style="padding-top: 16px; width: 25px; height: 25px;" class="log" src="./imgs/plus.png" alt=""></a></div>
+            <div class="logo"><a href=""><img class="logos" src="https://i.pinimg.com/736x/8b/0f/b2/8b0fb2e6b388051cf32502b3fdf2c7a6.jpg" alt=""></a></div>
+            
+            <div class="logo"><a href=""><img class="logos" src="https://i.pinimg.com/736x/1c/4b/12/1c4b12f45f56d1d37934dde85af2f4d4.jpg" alt=""></a></div>
+            <div class="logo"><a href=""><img class="logos" src="https://i.pinimg.com/736x/ba/9c/b1/ba9cb1dfe4b327b6aaea7d1c5d7048c3.jpg" alt=""></a></div>
+            <div class="logo"><a href=""><img class="logos" src="https://i.pinimg.com/736x/32/2b/ff/322bff6d7b972b7ff30586f2a77c9475.jpg" alt=""></a></div>
+        </div>
+
+        <div class="feeds">
+            <a href=""><img class="feedsLogo" src="./imgs/feed.png" alt="">
+            </a>
+            <a href=""><img class="feedsLogo" src="./imgs/reel.png" alt="">
+            </a>
+            <a href=""><img class="feedsLogo" src="./imgs/tag.png" alt="">
+            </a>
+        </div>
+
+        <div id="posts-insta">
+            <div class="topPost">
+                <div><img class="images" src="./imgs/img1.jpg" alt=""></div>
+                <div><img class="images" src="./imgs/img2.jpg" alt=""></div>
+                <div><img class="images" src="./imgs/img3.jpg" alt=""></div>
+            </div>
+            <div class="bottomPost">
+                <div><img class="images" src="./imgs/img4.jpg" alt=""></div>
+                <div><img class="images" src="./imgs/img5.jpg" alt=""></div>
+                <div><img class="images" src="./imgs/img6.jpg" alt=""></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <a href=""><img class="footerIcons" src="./imgs/home.png" alt=""></a>
+            <a href=""><img class="footerIcons" src="./imgs/search.png" alt=""></a>
+            <a href=""><img class="footerIcons" src="./imgs/create.png" alt=""></a>
+            <a href=""><img class="footerIcons" src="./imgs/reel.png" alt=""></a>
+            <a href=""><img class="footerIcons" style="height: 30px; width: 30px; border-radius: 50%; border: 2px solid white;" src="./imgs/profile.jpg" alt=""></a>
+        </div>
+    </div>
+
+</body>
+</html>

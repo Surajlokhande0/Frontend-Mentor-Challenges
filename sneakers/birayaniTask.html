@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        #container {
+            padding: 0 110px 0 110px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* background-color: lightblue; */
+            height: 90px;
+            padding: 50px;
+            border-bottom: 1px solid red;
+        }
+
+        .sneakerimage {
+            height: 90px;
+            width: 100%;
+            margin: 10px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        #leftNav {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            /* background-color: lightcyan; */
+            width: 55%;
+        }
+
+        #rightNav {
+            display: flex;
+            align-items: center;
+            /* background-color: lightcoral; */
+            justify-content: space-evenly;
+            width: 15%;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 17px;
+            font-family: "Montserrat";
+        }
+
+        figure {
+            height: 600px;
+            /* background-color: lightblue; */
+        }
+
+        section {
+            display: flex;
+
+        }
+
+        #rightsection {
+            padding-top: 110px;
+            padding-left: 140px;
+            width: 50%;
+            /* background-color: lightblue; */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <div id="leftNav">
+                <h1 style="font-size: 35px; font-family: Michroma;">sneakers</h1>
+                <a href="">collection</a>
+                <a href="">Men</a>
+                <a href="">women</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </div>
+
+            <div id="rightNav">
+                <i style="font-size: 20px;" class="fa-solid fa-cart-shopping"></i>
+                <img src="../sneakers/img/model.jpg" style="height: 55px; width: 55px; border-radius: 50%;" alt="">
+            </div>
+        </nav>
+        <hr>
+
+        <section>
+            <figure style="padding-left: 100px; padding-top: 90px; width: 40%;">
+                <img src="../sneakers/img/sneaker.jpg"
+                    style="width: 450px; 
+                    height: 400px; 
+                    object-fit: cover; 
+                border-radius: 10px;" alt="">
+
+                <div class="images" style=" width: 450px;height: 120px; display: flex;">
+                    <div class="sneakerimage"><img class="sneakerimage" style="border: 1px solid lightcoral;"
+                            src="../sneakers/img/sneakar1.jpg" alt=""></div>
+                    <div class="sneakerimage"><img class="sneakerimage" src="../sneakers/img/sneakar2.jpg" alt=""></div>
+                    <div class="sneakerimage"><img class="sneakerimage" src="../sneakers/img/sneakar3.jpg" alt=""></div>
+                    <div class="sneakerimage"><img class="sneakerimage" src="../sneakers/img/sneakar4.jpg" alt=""></div>
+                </div>
+            </figure>
+
+            <div id="rightsection">
+                <h5 style="font-size: 13px; font-family: Montserrat; color: rgb(62, 62, 62); font-weight: 500;">SNEAKER
+                    COMPANY</h5>
+                <h1 style="font-size: 50px; font-family: Kumbh Sans; line-height: 1; margin-top: 14px;">Fall Limited
+                    Edition <br>Sneakers</h1>
+                <p style="font-family: Kumbh Sans; color: rgb(62, 62, 62); margin-top: 40px;">These low-profile sneakers
+                    are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand
+                    everything the weather can offer</p>
+                <div
+                    style="display: flex; align-items: center;justify-content: space-between; margin-top: 25px; width: 150px;">
+                    <h2 style="font-family: Kumbh Sans;">$125.00</h2>
+                    <h3
+                        style="background-color: black; border-radius: 10px; color: white; width: 50px; padding: 7px; font-family: Kumbh Sans;">
+                        50%</h3>
+                </div>
+                <h4 style="line-height: 2; font-family: Kumbh Sans; color: rgb(62, 62, 62);"><strike>$250.00</strike>
+                </h4>
+
+                <div id="sign&addcart" style="display: flex; align-items: center; margin-top: 25px;">
+
+                    <div id="signs"
+                        style="display: flex; align-items: center; justify-content: space-around; width: 150px; height: 40px; border-radius: 10px; background-color: #e5e5fa;">
+                        <h3>-</h3>
+                        <h3>0</h3>
+                        <h3>+</h3>
+                    </div>
+
+                    <div id="cart"
+                        style="margin-left: 10px; margin-bottom: 10px; height: 45px; width: 200px;  padding: 20px; border-radius: 10px; display: flex; align-items: center;justify-content: space-around; background-color: #FF7D1A;">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <a href="" style="padding: 10px; font-family: Kumbh Sans;">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+</body>
+
+</html>

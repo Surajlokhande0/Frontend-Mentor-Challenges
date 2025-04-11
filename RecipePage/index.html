@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300..700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+
+        }
+
+        #container {
+            height: auto;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #F3E5D8;
+            padding: 80px;
+
+        }
+
+        #card {
+            height: auto;
+            width: 700px;
+            border-radius: 15px;
+            background-color: #ffffff;
+            padding: 30px;
+        }
+
+        #omlateImg {
+            height: 330px;
+            width: 640px;
+            border-radius: 30px;                        
+        }
+
+        header,
+        summary {
+            margin-top: 20px;
+        }
+
+        #preparation {
+            background-color: #fdd7ec;
+            margin-top: 20px;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        #nutrition {
+            margin-top: 20px;
+        }
+
+        .nutritionTable {
+            height: 40px;
+            width: 100%;
+            /* margin-top: 20px; */
+            /* background-color: lightblue; */
+            display: flex;
+            align-items: center;
+            padding: 30px;
+        }
+
+        h3 {
+            font-size: 25px;
+            font-family: "EB Garamond";
+        }
+
+        ul,
+        ol,
+        p,
+        h4 {
+            font-family: "poppins";
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="card">
+            <figure>
+                <img id="omlateImg" src="./omlate.jpg" alt="">
+            </figure>
+
+            <header>
+                <h2 style="font-size: 35px; font-family: EB Garamond;">Simple Omelette Recipe</h2>
+            </header>
+
+            <summary>
+                <p>An easy and quick dish, perfect for any meal. This classic
+                    omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese,
+                    vegetable, or meats.</p>
+            </summary>
+
+            <div id="preparation">
+                <h3 style="color: rgb(210, 66, 30);">preparation time</h3>
+                <ul style="padding-left: 30px; margin-top: 10px; color: rgb(210, 66, 30);">
+                    <li style="color: black;"><b>Total</b>: Approximately 10 minutes</li>
+                    <li style="color: black;"><b>Preparation</b>: 5 minutes</li>
+                    <li style="color: black;"><b>Cooking</b>: 5 minutes</li>
+                </ul>
+            </div>
+
+            <div id="ingredients" style="margin-top: 20px; margin-bottom: 15px;">
+                <h3 style="color: rgb(210, 66, 30);">Ingredients</h3>
+                <ul style="padding-left: 30px; margin-top: 10px;">
+                    <li>2-3 large eggs</li>
+                    <li>Salt, to teste</li>
+                    <li>Pepper, to teste</li>
+                    <li>1 tablespon of buttter or oil</li>
+                    <li>Optional fillings cheese,diced vegetables, cooked meats, herbs</li>
+                </ul>
+            </div>
+            <hr>
+
+            <div id="instructions" style="margin-top: 20px; margin-bottom: 15px;">
+                <h3 style="color: rgb(210, 66, 30);">Instructions</h3>
+                <ol style="padding-left: 30px; margin-top: 10px; line-height:27px;">
+                    <li><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are
+                        well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+                    <li><b>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+                    <li><b>Cook the omelette:</b> Once the butter is melted and bubbling, poul in the eggs. Tilt the pan
+                        to ensure the evenly the surface.</li>
+                    <li><b>Add fillings (optional)</b> When the eggs begin to set at the edges but are still slightly
+                        runnny in the middle, sprinkle your chosen fillings over one half of the omlelette.</li>
+                    <li><b>Fold and seve:</b> As the omelette continues to cook, carefully lift one edge and fold it over
+                        the fillings. Let it cook for another minute, then slide it into a plate.</li>
+                    <li><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</li>
+                </ol>
+            </div>
+            <hr>
+
+            <div id="nutrition">
+                <h3 style="color: rgb(210, 66, 30);">Nutrition</h3>
+                <p style="margin-top: 20px;">The table below shoes nutritional values per serving without the additional
+                    fillings.</p>
+
+                <div class="nutritionTable">
+                    <div class="calories" style=" width: 50%;">
+                        <h4>Calories</h4>
+                    </div>
+                    <div class="calories" style="color: rgb(210, 66, 30);">
+                        <h4>277kcal</h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="nutritionTable">
+                    <div class="calories" style=" width: 50%;">
+                        <h4>Carbs</h4>
+                    </div>
+                    <div class="calories" style="color: rgb(210, 66, 30);">
+                        <h4>0g</h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="nutritionTable">
+                    <div class="calories" style=" width: 50%;">
+                        <h4>Protein</h4>
+                    </div>
+                    <div class="calories" style="color: rgb(210, 66, 30);">
+                        <h4>20g</h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="nutritionTable">
+                    <div class="calories" style=" width: 50%;">
+                        <h4>Fat</h4>
+                    </div>
+                    <div class="calories" style="color: rgb(210, 66, 30);">
+                        <h4>22g</h4>
+                    </div>
+                </div>
+
+            </div>
+            <a href=""><i class="fa-solid fa-up"></i></a>
+
+        </div>
+    </div>
+</body>
+
+</html>
