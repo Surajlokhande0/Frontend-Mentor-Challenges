@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            font-family: "poppins";
+        }
+
+        main {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: lightblue;
+            background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+        }
+
+        #card {
+            width: 520px;
+            height: 580px;
+            border-radius: 20px;
+            padding: 20px;
+            padding-top: 30px;
+            background-color: #ffffff;
+        }
+
+        #cardsType {
+            width: 100%;
+            height: 220px;
+            margin-top: 40px;
+            /* background-color: lightblue; */
+        }
+
+        .box {
+            width: 100%;
+            height: 73px;
+            margin: 1px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+            /* background-color: lightcoral; */
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div id="card">
+            <div id="star" style="display: flex; align-items: center; gap: 20px; ">
+                <i style="color: rgb(237, 18, 146);" class="fa-solid fa-star"></i>
+                <h1>FAQs</h1>
+            </div>
+
+            <div id="text" style="display: flex; align-items: center; justify-content: space-between;">
+                <p style="margin-top: 20px;"><b>What is Frontend Mentor, and how will it help me?</b></p>
+                <div id="minus"
+                    style="width: 30px; height: 30px; background-color: black; border-radius: 50%; margin-top: 15px; ">
+                    <h1 style="color: white; padding-left: 11px;padding-top: 1px;  font-size: 20px; font-weight: 300;">-
+                    </h1>
+                </div>
+            </div>
+
+            <div id="para" style="margin-top: 40px;">
+                <p style="font-size: 15px;"> Frontend Mentor offers realistic coding challenges to help developers
+                    improve their frontend coding skills with projects in HTML. CSS, and JavaScript, It's suitable for
+                    all levels for portfilio building</p>
+            </div>
+
+            <div id="cardsType">
+                <div class="box">
+                    <h4>Is Frontend Mentor Free?</h4>
+                    <div id="minus"
+                        style="width: 30px; height: 30px; background-color: rgb(237, 18, 146); border-radius: 50%; margin-top: 10px; ">
+                        <h1
+                            style="color: white; padding-left: 9px; padding-top: 1px;  font-size: 20px; font-weight: 300;">
+                            +</h1>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Can i use Frontend Mentor project in my portfolio?</h4>
+                    <div id="minus"
+                        style="width: 30px; height: 30px; background-color: rgb(237, 18, 146); border-radius: 50%; margin-top: 10px; ">
+                        <h1
+                            style="color: white; padding-left: 9px; padding-top: 1px;  font-size: 20px; font-weight: 300;">
+                            +</h1>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>How can i get help if i'm stuck on a challenge?</h4>
+                    <div id="minus"
+                        style="width: 30px; height: 30px; background-color: rgb(237, 18, 146); border-radius: 50%; margin-top: 10px; ">
+                        <h1
+                            style="color: white; padding-left: 9px; padding-top: 1px;  font-size: 20px; font-weight: 300;">
+                            +
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

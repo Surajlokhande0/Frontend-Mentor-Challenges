@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Summary</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        html , body{
+
+        html,
+        body {
             height: 100%;
             width: 100%;
             font-family: "poppins";
         }
-        .gredientImg{
+
+        .gredientImg {
             height: 100%;
             width: 100%;
             position: absolute;
             z-index: -99;
         }
-        .gredientImg{
+
+        .gredientImg {
             height: 100%;
             width: 100%;
         }
-        main{
+
+        main {
             display: flex;
             align-items: center;
             padding-top: 80px;
         }
-        #card{
+
+        #card {
             width: 27%;
             height: 600px;
             background-color: white;
@@ -39,30 +48,35 @@
             margin-left: 550px;
             box-shadow: 0 0 30px black;
         }
-        #container{
+
+        #container {
             /* margin: 40px; */
             height: 390px;
             padding: 30px;
             /* background-color: lightcoral; */
         }
-        #orderImg{
+
+        #orderImg {
             width: 414.5px;
             height: 200px;
             object-fit: cover;
             border-radius: 30px 30px 0 0;
         }
-        .text{
+
+        .text {
             width: 100%;
             height: 130px;
             /* background-color: lightblue; */
         }
-        .text,h3{
+
+        .text,
+        h3 {
             /* padding: 10px; */
             text-align: center;
             font-size: 19px;
         }
-        
-        .audio{
+
+        .audio {
             height: 90px;
             width: 100%;
             display: flex;
@@ -72,28 +86,34 @@
             border-radius: 10px;
             background-color: rgb(231, 246, 251);
         }
-        #annualPlan{
+
+        #annualPlan {
             display: flex;
             align-items: center;
             padding: 20px;
             gap: 20px;
 
         }
-        #music{
+
+        #music {
             height: 40px;
             width: 40px;
             background-color: grey;
             border-radius: 50%;
 
         }
-        #music,i{
+
+        #music,
+        i {
             padding: 6px;
 
         }
-        a{
+
+        a {
             margin-right: 30px;
         }
-        .Proceedbtn{
+
+        .Proceedbtn {
             padding: 10px;
             width: 100%;
             margin-top: 30px;
@@ -105,7 +125,8 @@
             box-shadow: 0 12px 13px #aca6f7;
             cursor: pointer;
         }
-        .cancalbtn{
+
+        .cancalbtn {
             /* background-color: lightblue; */
             border: none;
             background: none;
@@ -119,6 +140,7 @@
         }
     </style>
 </head>
+
 <body>
     <img class="gredientImg" src="./gredient.jpg" alt="">
     <main>
@@ -127,9 +149,10 @@
             <div id="container">
                 <div class="text">
                     <h3>Order Summary</h3>
-                    <p style="margin-top: 13px; font-size: 15px;">You can now listen to millions of songs,<br>audiobooks, and podcasts on any device <br>anywhere you like!</p>
+                    <p style="margin-top: 13px; font-size: 15px;">You can now listen to millions of
+                        songs,<br>audiobooks, and podcasts on any device <br>anywhere you like!</p>
                 </div>
-    
+
                 <div class="audio">
                     <div id="annualPlan">
                         <div id="music"><i class="fa-solid fa-music"></i></div>
@@ -140,11 +163,12 @@
                     </div>
                     <a href="">change</a>
                 </div>
-    
+
                 <button class="Proceedbtn">Proceed to Payment</button>
                 <button class="cancalbtn">Cancel Order</button>
             </div>
         </div>
     </main>
 </body>
+
 </html>
